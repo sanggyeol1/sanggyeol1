@@ -6,7 +6,7 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import { aboutMe } from '../../asset/aboutMe'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-
+import { Container } from '@mui/material'
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -18,13 +18,14 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const AboutMe = () => {
     return (
+        <Container>
         <div className='about-me-main'>
-            <h2 id="about-me">
+            <h1 id="about-me">
                 <a href="#about-me">
                     <FontAwesomeIcon icon={faLink} />
                 </a>
                 About Me
-            </h2>
+            </h1>
 
 
 
@@ -40,11 +41,9 @@ const AboutMe = () => {
                         </Grid>
                     ))
                 }
-
-
-
             </Grid>
         </div>
+        </Container>
     )
 }
 
