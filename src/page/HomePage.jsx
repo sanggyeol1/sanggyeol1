@@ -8,15 +8,13 @@ import Skills from '../component/Skills/Skills'
 
 const HomePage = () => {
     return (
-       
-            <div>
-                <Banner />
-                 <Container>
-                    <AboutMe/>
-                    <Skills/>
-                </Container>
-                <Footer/>
-            </div>
+
+        <div>
+            <Banner />
+            <AboutMe />
+            <Skills />
+            <Footer />
+        </div>
     )
 }
 

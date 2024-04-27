@@ -1,5 +1,5 @@
 import {
-    faLink, faUser, faCakeCandles, faLocationDot,
+    faUser, faCakeCandles, faLocationDot,
     faPhone, faEnvelope, faGraduationCap
 } from '@fortawesome/free-solid-svg-icons'
 
