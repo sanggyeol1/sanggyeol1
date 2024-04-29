@@ -7,7 +7,8 @@ import Paper from '@mui/material/Paper';
 import { aboutMe } from '../../asset/aboutMe'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { Container } from '@mui/material'
-import { BackSkillLogos, FrontSkillLogos } from '../SkillLogos/SkillLogos';
+import { BackSkillLogos, DeploySkillLogos, FrontSkillLogos, VersionSkillLogos } from '../SkillLogos/SkillLogos';
+import { Translate } from '@mui/icons-material';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -16,6 +17,12 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  transition: 'transform 0.5s ease',
+  '&:hover': {
+    cursor: 'pointer',
+    boxShadow : '0px 0px 3px black',
+    transform: 'translateY(10px)'
+  }
 }));
 
 
@@ -44,9 +51,13 @@ const Skills = () => {
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <Item>
-
+              <DeploySkillLogos/>
+            </Item>
+            <Item style={{marginTop : '20px'}}>
+              <VersionSkillLogos/>
             </Item>
           </Grid>
+          
         </Grid>
         </Container>
       </div>

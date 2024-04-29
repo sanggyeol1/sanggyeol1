@@ -1,3 +1,24 @@
 .footer-box{
-    height: 30vh;
+    height: 22vh;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.footer-icon-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-icon{
+    padding: 15px;
+    font-size: 50px;
 }
