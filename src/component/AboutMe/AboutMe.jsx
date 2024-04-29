@@ -27,16 +27,14 @@ const AboutMe = () => {
                 About Me
             </h1>
 
-
-
             <Grid container spacing={2}>
                 {
                     aboutMe.map((aboutMe) => (
                         <Grid item xs={12} md={6} lg={4}>
                             <Item className='about-me-items'>
                                 <FontAwesomeIcon className='about-me-icon' icon={aboutMe.iconName} />
-                                <div>{aboutMe.theme}</div>
-                                <div>{aboutMe.content}</div>
+                                <h2>{aboutMe.theme}</h2>
+                                <h3>{aboutMe.content}</h3>
                             </Item>
                         </Grid>
                     ))

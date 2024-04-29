@@ -1,7 +1,12 @@
 .skills-bg{
-    background-color: hsl(210, 100%, 38%)
+    background-color: hsl(210, 100%, 38%);
+    padding-bottom: 25px;
 }
 
 .skills-main{
     text-align: center;
+}
+
+#skills{
+    padding: 20px;
 }

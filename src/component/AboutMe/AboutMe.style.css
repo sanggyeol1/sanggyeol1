@@ -3,10 +3,14 @@
 }
 
 .about-me-items{
-    font-size: 20px;
-    padding: 20px;
+    font-size: 30px;
 }
 
 .about-me-icon{
-    font-size: 40px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+#about-me{
+    padding : 20px;
 }
