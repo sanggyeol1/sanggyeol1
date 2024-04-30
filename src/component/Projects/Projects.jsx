@@ -1,0 +1,112 @@
+import { Container } from '@mui/material'
+import { Grid } from '@mui/material'
+import React from 'react'
+import './Projects.style.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { styled } from '@mui/material/styles';
+import Paper from '@mui/material/Paper';
+
+const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    transition: 'transform 0.5s ease',
+    '&:hover': {
+      cursor: 'pointer',
+      boxShadow : '0px 0px 3px black',
+      transform: 'translateY(10px)'
+    }
+  }));
+
+
+const projects = [
+    { 
+        title : "캠핑어때",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "한국관광공사 api를 이용한 고캠핑 클론사이트",
+        team : "한도희, 정아림, 김예진, 한상결, 곽선아",
+        explane : "",
+        stack : "react, redux, react-query",
+        img : "",
+        link : "",
+    },
+    { 
+        title : "한상갤",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "node.js, express를 사용한 게시판",
+        team : "개인프로젝트",
+        explane : "",
+        stack : "",
+        img : "",
+        link : "",
+    },
+    { 
+        title : "넷플릭스",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "tmdb에서 받은 api를 활용하여 만든 영화 소개 사이트",
+        team : "개인프로젝트",
+        explane : "",
+        stack : "",
+        img : "",
+        link : "",
+    },
+    { 
+        title : "H&M",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "json server를 활용하여 만든 쇼핑몰 사이트",
+        team : "개인프로젝트",
+        explane : "",
+        stack : "",
+        img : "",
+        link : "",
+    },
+    { 
+        title : "HSG's Portfolio",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "react를 활용한 포트폴리오",
+        team : "개인프로젝트",
+        explane : "",
+        stack : "",
+        img : "",
+        link : "",
+    },
+    { 
+        title : "집중스터디카페 암사점",
+        date : "2024.04.14 ~ 2024.04.19",
+        content : "가업으로 운영하는 스터디카페 홈페이지",
+        team : "개인프로젝트",
+        explane : "",
+        stack : "",
+        img : "",
+        link : "",
+    },
+]
+
+const Projects = () => {
+    return (
+        <div className='projects-container'>
+            <Container>
+                <h1 >Projects</h1>
+                <Grid container spacing={2}>
+                    <Grid item xs={12}>
+                        {
+                            projects.map((project)=>(
+                                <Item className='project-item'>
+                                    <img src={project.img}/>
+                                    <h2>{project.title}</h2>
+                                    <div>{project.date}</div>
+                                    <div>{project.content}</div>
+                                </Item>
+                            ))
+                        }
+                        
+                    </Grid>
+                </Grid>
+            </Container>
+        </div>
+    )
+}
+
+export default Projects

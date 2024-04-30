@@ -4,6 +4,7 @@ import { Container } from '@mui/material'
 import AboutMe from '../component/AboutMe/AboutMe'
 import Footer from '../component/Footer/Footer'
 import Skills from '../component/Skills/Skills'
+import Projects from '../component/Projects/Projects'
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Banner />
             <AboutMe />
             <Skills />
+            <Projects />
             <Footer />
         </div>
     )
