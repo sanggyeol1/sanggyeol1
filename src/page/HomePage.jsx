@@ -5,6 +5,8 @@ import AboutMe from '../component/AboutMe/AboutMe'
 import Footer from '../component/Footer/Footer'
 import Skills from '../component/Skills/Skills'
 import Projects from '../component/Projects/Projects'
+import Awards from '../component/Awards/Awards'
+import Certificates from '../component/Certificates/Certificates'
 
 
 const HomePage = () => {
@@ -13,6 +15,8 @@ const HomePage = () => {
         <div>
             <Banner />
             <AboutMe />
+            <Awards/>
+            <Certificates />
             <Skills />
             <Projects />
             <Footer />
