@@ -23,7 +23,7 @@ const AppLayout = () => {
                 <MenuIcon />
               </IconButton>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                HSG's Portfolio
+              sanggyeol's portfolio
               </Typography>
               <Button color="inherit">about me</Button>
             </Toolbar>

@@ -20,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
   transition: 'transform 0.5s ease',
   '&:hover': {
     cursor: 'pointer',
-    boxShadow : '0px 0px 3px black',
+    boxShadow: '0px 0px 3px black',
     transform: 'translateY(10px)'
   }
 }));
@@ -37,29 +37,28 @@ const Skills = () => {
         Skills
       </h1>
       <div className='skills-bg'>
-        <Container>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item>
-              <FrontSkillLogos/>
-            </Item>
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item>
-              <BackSkillLogos/>
-            </Item>
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item>
-              <DeploySkillLogos/>
-            </Item>
-            <Item style={{marginTop : '20px'}}>
-              <VersionSkillLogos/>
-            </Item>
-          </Grid>
-          
-        </Grid>
-        </Container>
+      <Container>
+  <Grid container spacing={2}>
+    <Grid item xs={12} md={4} lg={4}>
+      <Item>
+        <FrontSkillLogos />
+      </Item>
+    </Grid>
+    <Grid item xs={12} md={4} lg={4}>
+      <Item>
+        <BackSkillLogos />
+      </Item>
+    </Grid>
+    <Grid item xs={12} md={4} lg={4}>
+      <Item>
+        <DeploySkillLogos />
+      </Item>
+      <Item style={{ marginTop: '20px' }}>
+        <VersionSkillLogos />
+      </Item>
+    </Grid>
+  </Grid>
+</Container>
       </div>
     </div>
   )

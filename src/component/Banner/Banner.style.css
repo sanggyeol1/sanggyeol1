@@ -1,6 +1,6 @@
 .main-banner {
     text-align: center;
-    background-image: url('../../asset/daisy_field_flower_dark_background_125105_1600x1200.jpg');
+    background-image: url('../../asset/머그컵.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -9,4 +9,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-gradation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: background-color 1s ease; /* 변경된 부분 */
+}
+.banner-gradation:hover{
+    background-color: rgba(3, 3, 3, 0.47); /* 변경된 부분 */
 }
