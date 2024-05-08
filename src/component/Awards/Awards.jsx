@@ -32,7 +32,7 @@ const Awards = () => {
     boxShadow : '0px 0px 3px black',
     '&:hover': {
       cursor: 'pointer',
-      transform: 'translateY(10px)'
+      transform: 'translateY(5px)'
     }
   }));
 
