@@ -33,7 +33,7 @@ const Certificates = () => {
     marginTop : '20px',
     '&:hover': {
       cursor: 'pointer',
-      transform: 'translateY(10px)'
+      transform: 'translateY(5px)'
     }
   }));
 
