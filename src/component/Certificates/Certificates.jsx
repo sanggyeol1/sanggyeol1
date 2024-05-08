@@ -5,13 +5,17 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 
 const certificateList = [
-  {
-    name: '정보처리기사',
-    date: '2024.09',
-  },
+  // {
+  //   name: '정보처리기사',
+  //   date: '2024.09',
+  // },
   {
     name: 'sql개발자 (sqld)',
     date: '2023.11',
+  },
+  {
+    name: 'TOEIC Speaking (IH)',
+    date: '2024.03',
   },
 
 ]
@@ -24,10 +28,11 @@ const Certificates = () => {
     padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    boxShadow : '0px 0px 3px black',
     transition: 'transform 0.5s ease',
+    marginTop : '20px',
     '&:hover': {
       cursor: 'pointer',
-      boxShadow : '0px 0px 3px black',
       transform: 'translateY(10px)'
     }
   }));

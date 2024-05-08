@@ -11,7 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 const AppLayout = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
+          <AppBar position="static" sx={{ backgroundColor: '#333' }}>
             <Toolbar>
               <IconButton
                 size="large"
