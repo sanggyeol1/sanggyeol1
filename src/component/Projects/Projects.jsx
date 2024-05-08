@@ -14,10 +14,10 @@ const Item = styled(Paper)(({ theme }) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
     transition: 'transform 0.5s ease',
+    margin : '10px',
     '&:hover': {
         cursor: 'pointer',
         boxShadow: '0px 0px 3px black',
-        transform: 'translateY(10px)'
     }
 }));
 
@@ -73,16 +73,16 @@ const projects = [
         img: ["a","b","c"],
         link: "",
     },
-    {
-        title: "집중스터디카페 암사점",
-        date: "2024.04.14 ~ 2024.04.19",
-        content: "가업으로 운영하는 스터디카페 홈페이지",
-        team: "개인프로젝트",
-        explane: "",
-        stack: "",
-        img: ["a","b","c"],
-        link: "",
-    },
+    // {
+    //     title: "집중스터디카페 암사점",
+    //     date: "2024.04.14 ~ 2024.04.19",
+    //     content: "가업으로 운영하는 스터디카페 홈페이지",
+    //     team: "개인프로젝트",
+    //     explane: "",
+    //     stack: "",
+    //     img: ["a","b","c"],
+    //     link: "",
+    // },
 ]
 
 const Projects = () => {
