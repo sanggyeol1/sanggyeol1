@@ -149,7 +149,7 @@ export const DeploySkillLogos = () => {
 export const VersionSkillLogos = () => {
     return (
         <div>
-            <h1>version controll</h1>
+            <h1>Git</h1>
             {
                 logos.version.map((logo) => (
                     <div>

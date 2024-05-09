@@ -3,6 +3,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import './Projects.style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import SlideCard from '../SlideCard/SlideCard'
@@ -14,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
     transition: 'transform 0.5s ease',
-    margin : '10px',
+    margin: '10px',
     '&:hover': {
         cursor: 'pointer',
         boxShadow: '0px 0px 3px black',
@@ -30,7 +31,7 @@ const projects = [
         team: "한도희, 정아림, 김예진, 한상결, 곽선아",
         explane: "",
         stack: "react, redux, react-query",
-        img: ["../../asset/gocampingBanner.png","b","c"],
+        img: ["../../asset/gocampingBanner.png", "b", "c"],
         link: "",
     },
     {
@@ -40,27 +41,27 @@ const projects = [
         team: "개인프로젝트",
         explane: "",
         stack: "",
-        img: ["a","b","c"],
+        img: ["a", "b", "c"],
         link: "",
     },
     {
-        title: "넷플릭스",
+        title: "넷플릭스 클론코딩",
         date: "2024.04.14 ~ 2024.04.19",
         content: "tmdb에서 받은 api를 활용하여 만든 영화 소개 사이트",
         team: "개인프로젝트",
         explane: "",
         stack: "",
-        img: ["a","b","c"],
+        img: ["a", "b", "c"],
         link: "",
     },
     {
-        title: "H&M",
+        title: "H&M 클론코딩",
         date: "2024.04.14 ~ 2024.04.19",
         content: "json server를 활용하여 만든 쇼핑몰 사이트",
         team: "개인프로젝트",
         explane: "",
         stack: "",
-        img: ["a","b","c"],
+        img: ["a", "b", "c"],
         link: "",
     },
     {
@@ -70,7 +71,7 @@ const projects = [
         team: "개인프로젝트",
         explane: "",
         stack: "",
-        img: ["a","b","c"],
+        img: ["a", "b", "c"],
         link: "",
     },
     // {
@@ -89,7 +90,12 @@ const Projects = () => {
     return (
         <div className='projects-container'>
             <Container>
-                <h1 >Projects</h1>
+                <h1 id="my-projects">
+                    <a href="my-projects">
+                        <FontAwesomeIcon icon={faLink} />
+                    </a>
+                    My projects
+                </h1>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         {

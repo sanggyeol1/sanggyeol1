@@ -1,11 +1,11 @@
 import React from 'react'
 import './Skills.style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { Grid } from '@mui/material'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import { aboutMe } from '../../asset/aboutMe'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { Container } from '@mui/material'
 import { BackSkillLogos, DeploySkillLogos, FrontSkillLogos, VersionSkillLogos } from '../SkillLogos/SkillLogos';
 import { Translate } from '@mui/icons-material';

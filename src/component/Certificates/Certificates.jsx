@@ -5,16 +5,17 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 
 const certificateList = [
-  // {
-  //   name: '정보처리기사',
-  //   date: '2024.09',
-  // },
+  
   {
     name: 'sql개발자 (sqld)',
     date: '2023.11',
   },
   {
     name: 'TOEIC Speaking (IH)',
+    date: '2024.03',
+  },
+  {
+    name: '정보처리기사(필기)',
     date: '2024.03',
   },
 
