@@ -1,16 +1,15 @@
-import React from 'react'
-import './Banner.style.css'
+import React from 'react';
+import './Banner.style.css';
+import { Container } from '@mui/material';
 
 const Banner = () => {
   return (
-    <div className='main-banner'>
-      <div className='banner-gradation'>
-        <div>
-          <h1> - 한상결 - </h1>
-          <h1>웹 개발자 포트폴리오</h1>
-        </div>
-      </div>
-    </div>
+    <article className='topBanner'>
+      <Container >
+        <h1>한상결 <em>포트폴리오</em></h1>
+        <p></p>
+      </Container>
+    </article>
   )
 }
 
