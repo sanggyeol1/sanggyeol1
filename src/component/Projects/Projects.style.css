@@ -1,5 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
 .projects-container{
-    text-align: center;
     background-color: #00a152;
     padding : 25px;
+}
+
+.project-item {
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.project-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-content {
+    font-size: 1.2rem;
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.project-content Button{
+    margin-right: 10px;
+}
+/* .project-content Button a{
+    text-decoration: none;
+    color: #47A248;
+} */
+
+
+@media (max-width: 599.98px) {
+    .project-content {
+        font-size: 1.0rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 959.98px) {
+    .project-content {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1279.98px) {
+    .project-content {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-content {
+        font-size: 1.3rem;
+    }
 }

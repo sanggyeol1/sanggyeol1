@@ -13,17 +13,9 @@ const AppLayout = () => {
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static" sx={{ backgroundColor: '#333' }}>
             <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                <MenuIcon />
-              </IconButton>
+
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              sanggyeol
+              HAN SANG GYEOL
               </Typography>
               <Button color="inherit" href='#about-me'>About me</Button>
               <Button color="inherit" href='#skills'>skills</Button>
