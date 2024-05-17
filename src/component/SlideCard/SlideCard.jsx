@@ -30,7 +30,7 @@ const SlideCard = ({ imageList }) => {
         <Carousel responsive={responsive}>
             {
                 imageList.map((item) => (
-                    <div>
+                    <div className='project-image-box'>
                         <img className='project-image' src={'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA0MjRfNjgg%2FMDAxNzEzOTIzNTM4MTAw.qnP3d52lS-FMBhJ9Wv2Voou_K5AOrP7cjx6Xet377scg.5TvnehkXbi_FHRESbYIvbgw1-NuqaB8w2yr9g7CoDK4g.JPEG%2F%25C7%25D1%25C4%25B7%25BD%25BA%25B4%25DE%25C0%25E5%25C7%25CE%25C0%25CE-20240419_%252841%2529.jpg&type=a340'} />
                     </div>
                 ))
