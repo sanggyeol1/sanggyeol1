@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
     transition: 'transform 0.5s ease',
     marginTop: '200px',
-    borderRadius: '30px',
+    borderRadius: '20px',
 
     // '&:hover': {
     //     cursor: 'pointer',
@@ -116,7 +116,7 @@ const Projects = () => {
 
                             <div>
                                 <Grid container>
-                                    <Grid item xs={12} md={7}>
+                                    <Grid item xs={12} md={7} className='slide-box'>
                                         <SlideCard imageList={project.img} />
                                     </Grid>
                                     <Grid item xs={12} md={5}>
