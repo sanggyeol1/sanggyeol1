@@ -75,7 +75,6 @@ const projects = [
         gitLink: "https://github.com/sanggyeol1/sanggyeol1",
         siteLink:"https://delightful-nasturtium-354683.netlify.app/",
     },
-    //     title: "집중스터디카페 암사점", 
 ]
 
 const Projects = () => {
