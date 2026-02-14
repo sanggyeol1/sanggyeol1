@@ -42,10 +42,3 @@
 | 2024.03 | TOEIC Speaking - IH |
 | 2024.09 | Engineer Information Processing (정보처리기사) |
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
-
-## Contact
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanggyeol1@gmail.com)
