@@ -3,7 +3,6 @@
 ## About Me
 
 - 🎓 B.S. in Computer Engineering, Gachon University (2025.02)
-- 🌱 Passionate about building full-stack web applications
 - 📍 South Korea
 
 ## Tech Stack
