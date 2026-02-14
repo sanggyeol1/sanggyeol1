@@ -1,4 +1,4 @@
-# Hi there, I'm Sanggyeol Han 👋
+# Sanggyeol Han 👋
 
 ## About Me
 
