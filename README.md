@@ -1,7 +1,4 @@
 # Sanggyeol Han 
-- 👋
-## About Me
-
 - 🎓 B.S. in Computer Engineering, Gachon University (2025.02)
 - 📍 South Korea
 
